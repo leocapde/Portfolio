@@ -1,13 +1,16 @@
 export default function Header() {
   return (
-    <div className="Header sticky-top">
-      <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
-        <div className="container-fluid mx-sm-5">
-          <a href="#" className="navbar-brand fw-bold text-danger">
+    <div className="Header row sticky-top">
+      <nav className="navbar navbar-expand-md navbar-dark bg-dark px-2 px-sm-5">
+        <div className="container-fluid">
+          <a
+            href="#"
+            className="navbar-brand fw-bold text-danger text-uppercase"
+          >
             Portfolio
           </a>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
@@ -15,27 +18,27 @@ export default function Header() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse " id="navbarNav">
-            <ul class="navbar-nav ">
-              <li class="nav-item ">
-                <a class="nav-link active" aria-current="page" href="#">
+          <div className="collapse navbar-collapse " id="navbarNav">
+            <ul className="navbar-nav ">
+              <li className="nav-item ">
+                <a className="nav-link active" aria-current="page" href="#">
                   Accueil
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li className="nav-item">
+                <a className="nav-link" href="#">
                   Compétences techniques
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li className="nav-item">
+                <a className="nav-link" href="#">
                   Projets
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li className="nav-item">
+                <a className="nav-link" href="#">
                   Formations
                 </a>
               </li>

@@ -4,6 +4,17 @@ body {
   margin: 0;
 }
 
+.bg-image {
+  background-image: url("../../assets/IMG_1476.JPG");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 2px black;
+}
+
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
