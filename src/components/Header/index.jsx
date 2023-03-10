@@ -1,10 +1,10 @@
 export default function Header() {
   return (
-    <div className="Header row sticky-top">
+    <div id="Header" className="row sticky-top">
       <nav className="navbar navbar-expand-md navbar-dark bg-dark px-2 px-sm-5">
         <div className="container-fluid">
           <a
-            href="#AbourMe"
+            href="#top"
             className="navbar-brand fw-bold text-danger text-uppercase"
           >
             Portfolio
@@ -23,25 +23,21 @@ export default function Header() {
           <div className="collapse navbar-collapse " id="navbarNav">
             <ul className="navbar-nav ">
               <li className="nav-item ">
-                <a
-                  className="nav-link active"
-                  aria-current="page"
-                  href="#AboutMe"
-                >
+                <a className="nav-link active" aria-current="page" href="#top">
                   Accueil
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#Frameworks">
-                  Languages et frameworks
-                </a>
-              </li>
-              {/* <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Projets
+                  Technologies
                 </a>
               </li>
               <li className="nav-item">
+                <a className="nav-link" href="#Projects">
+                  Projets
+                </a>
+              </li>
+              {/* <li className="nav-item">
                 <a className="nav-link" href="#">
                   Formations
                 </a>
