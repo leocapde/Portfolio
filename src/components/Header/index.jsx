@@ -37,11 +37,11 @@ export default function Header() {
                   Projets
                 </a>
               </li>
-              {/* <li className="nav-item">
-                <a className="nav-link" href="#">
+              <li className="nav-item">
+                <a className="nav-link" href="#Formations">
                   Formations
                 </a>
-              </li> */}
+              </li>
             </ul>
           </div>
         </div>

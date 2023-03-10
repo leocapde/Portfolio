@@ -19,24 +19,24 @@ export const projectsList = [
     github: '',
     frameworks: ['HTML', 'CSS', 'JS', 'Bootstrap-5', 'React', 'Sass'],
   },
-  {
-    title: 'Test 1',
-    image: '',
-    alt: '',
-    description:
-      "Les projets tests sont là uniquements afin d'aider à visualiser le rendu (responsive) des différents composants",
-    url: '',
-    github: '',
-    frameworks: [],
-  },
-  {
-    title: 'Test 2',
-    image: '',
-    alt: '',
-    description:
-      "Les projets tests sont là uniquements afin d'aider à visualiser le rendu (responsive) des différents composants",
-    url: '',
-    github: '',
-    frameworks: [],
-  },
+  // {
+  //   title: 'Test 1',
+  //   image: '',
+  //   alt: '',
+  //   description:
+  //     "Les projets tests sont là uniquements afin d'aider à visualiser le rendu (responsive) des différents composants",
+  //   url: '',
+  //   github: '',
+  //   frameworks: [],
+  // },
+  // {
+  //   title: 'Test 2',
+  //   image: '',
+  //   alt: '',
+  //   description:
+  //     "Les projets tests sont là uniquements afin d'aider à visualiser le rendu (responsive) des différents composants",
+  //   url: '',
+  //   github: '',
+  //   frameworks: [],
+  // },
 ];
