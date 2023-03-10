@@ -4,7 +4,7 @@ export default function Header() {
       <nav className="navbar navbar-expand-md navbar-dark bg-dark px-2 px-sm-5">
         <div className="container-fluid">
           <a
-            href="#"
+            href="#AbourMe"
             className="navbar-brand fw-bold text-danger text-uppercase"
           >
             Portfolio
@@ -23,16 +23,20 @@ export default function Header() {
           <div className="collapse navbar-collapse " id="navbarNav">
             <ul className="navbar-nav ">
               <li className="nav-item ">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a
+                  className="nav-link active"
+                  aria-current="page"
+                  href="#AboutMe"
+                >
                   Accueil
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Compétences techniques
+                <a className="nav-link" href="#Frameworks">
+                  Languages et frameworks
                 </a>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a className="nav-link" href="#">
                   Projets
                 </a>
@@ -41,7 +45,7 @@ export default function Header() {
                 <a className="nav-link" href="#">
                   Formations
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

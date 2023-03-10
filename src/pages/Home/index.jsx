@@ -1,4 +1,5 @@
 import AboutMe from '../../components/AboutMe';
+import Frameworks from '../../components/Frameworks';
 import Header from '../../components/Header';
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <div className="Home">
       <Header />
       <AboutMe />
+      <Frameworks />
     </div>
   );
 }

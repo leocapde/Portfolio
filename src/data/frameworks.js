@@ -1,0 +1,80 @@
+export const frameworksList = [
+  {
+    title: 'HTML',
+    image: '',
+    alt: '',
+    progress: '95',
+  },
+  {
+    title: 'CSS',
+    image: '',
+    alt: '',
+    progress: '85',
+  },
+  {
+    title: 'JavaScript',
+    image: '',
+    alt: '',
+    progress: '80',
+  },
+  {
+    title: 'React',
+    image: '',
+    alt: '',
+    progress: '80',
+  },
+  //   {
+  //     title: 'Next.js',
+  //     image: '',
+  //     alt: '',
+  //     progress: '50',
+  //   },
+  {
+    title: 'Bootstrap 5',
+    image: '',
+    alt: '',
+    progress: '75',
+  },
+  {
+    title: 'Sass',
+    image: '',
+    alt: '',
+    progress: '85',
+  },
+  {
+    title: 'Node.js',
+    image: '',
+    alt: '',
+    progress: '75',
+  },
+  {
+    title: 'Postman',
+    image: '',
+    alt: '',
+    progress: '75',
+  },
+  //   {
+  //     title: 'MySql',
+  //     image: '',
+  //     alt: '',
+  //     progress: '50',
+  //   },
+  //   {
+  //     title: 'Git',
+  //     image: '',
+  //     alt: '',
+  //     progress: '50',
+  //   },
+  //   {
+  //     title: 'GitHub',
+  //     image: '',
+  //     alt: '',
+  //     progress: '50',
+  //   },
+  //   {
+  //     title: 'VS code',
+  //     image: '',
+  //     alt: '',
+  //     progress: '50',
+  //   },
+];

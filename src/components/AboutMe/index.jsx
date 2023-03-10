@@ -1,6 +1,9 @@
 export default function AboutMe() {
   return (
-    <div className="AboutMe row bg-black py-5 py-sm-6 px-2 px-sm-5 bg-image">
+    <section
+      id="AboutMe"
+      className="row bg-black py-5 py-sm-6 px-2 px-sm-5 bg-image"
+    >
       <div className="col col-md-6">
         <h1 className="text-light text-shadow">Léo Capdevielle</h1>
         <h4 className="text-light text-shadow">Développeur web</h4>
@@ -21,6 +24,6 @@ export default function AboutMe() {
           Plus d'infos
         </button>
       </div>
-    </div>
+    </section>
   );
 }
