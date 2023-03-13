@@ -4,6 +4,7 @@ body {
   margin: 0;
 }
 
+/* Colors */
 .bg-image {
   background-image: url("../../assets/IMG_1476.JPG");
   background-size: cover;
@@ -17,6 +18,14 @@ body {
 
 .progress-framework {
   height: 3px !important;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #6c757d;
+}
+.footer-link:hover {
+  color: #E50815;
 }
 
 /*!

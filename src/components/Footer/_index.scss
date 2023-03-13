@@ -1,0 +1,7 @@
+.footer-link {
+    text-decoration: none;
+    color: $secondary;
+    &:hover {
+        color: $danger;
+    }
+}

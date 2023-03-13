@@ -1,4 +1,5 @@
 import AboutMe from '../../components/AboutMe';
+import Footer from '../../components/Footer';
 import Formations from '../../components/Formations';
 import Frameworks from '../../components/Frameworks';
 import Header from '../../components/Header';
@@ -12,6 +13,7 @@ export default function Home() {
       <Frameworks />
       <Projects />
       <Formations />
+      <Footer />
     </div>
   );
 }
