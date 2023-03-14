@@ -4,7 +4,7 @@ export default function Formations() {
   return (
     <section id="Formations" className="row bg-black pt-5 px-2 px-sm-5">
       <h4 className="text-light m-0">Formations</h4>
-      <div className="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-xl-6 g-2">
+      <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-2 mx-0">
         {formationsList
           .slice()
           .reverse()

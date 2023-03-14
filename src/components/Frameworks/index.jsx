@@ -11,7 +11,7 @@ export default function Frameworks() {
               <img
                 src={framework.image}
                 alt={framework.alt}
-                className="card-img-top"
+                className="card-img-top framework-img"
               />
               <div className="card-body">
                 <h5 className="card-title text-light">{framework.title}</h5>

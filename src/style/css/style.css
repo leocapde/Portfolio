@@ -16,7 +16,7 @@ body {
   text-shadow: 1px 1px 2px black;
 }
 
-.card-img-top {
+.framework-img {
   max-height: 100px;
   object-fit: contain;
 }
