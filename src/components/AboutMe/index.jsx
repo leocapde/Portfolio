@@ -8,21 +8,24 @@ export default function AboutMe() {
         <h1 className="text-light text-shadow">Léo Capdevielle</h1>
         <h4 className="text-light text-shadow">Développeur web</h4>
         <p className="text-light text-shadow">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam,
-          beatae hic? Eligendi placeat iste sapiente soluta dolor quaerat,
-          explicabo quo architecto, dicta ipsa culpa, accusamus consequatur
-          nostrum ipsum. Obcaecati libero deleniti vel voluptatem doloremque
-          quam eveniet, cumque quaerat dolorum dolorem eos nam ea recusandae
-          inventore quasi perferendis rerum temporibus voluptates.
+          Après avoir travailler pendant des années en tant que salarié
+          agricole, ce fils d'agriculteur décide de se lancer dans sa passion
+          pour le développement informatique. Aujourd'hui détenteur d'un diplôme
+          en Dévelopeur web, il compte bien utiliser sa curiosité naturelle et
+          sa capacité d'auto-apprentissage afin de s'épanouir dans son nouveau
+          métier.
         </p>
-        <button className="btn btn-light mr-2">
-          <i className="fa-solid fa-play mx-2"></i>
-          Lecture
-        </button>
-        <button className="btn btn-secondary opacity-75 mx-2">
-          <i className="fa-solid fa-circle-info mx-2"></i>
-          Plus d'infos
-        </button>
+        <a href="https://www.linkedin.com/in/l%C3%A9o-capdevielle-2467ba18a/">
+          <button className="btn btn-light px-4">
+            <i className="fa-brands fa-linkedin mx-1"></i> LinkedIn
+          </button>
+        </a>
+        <a href="https://github.com/leocapde">
+          <button className="btn btn-secondary px-4 mx-3">
+            <i className="fa-brands fa-github mx-1"></i>
+            Github
+          </button>
+        </a>
       </div>
     </section>
   );

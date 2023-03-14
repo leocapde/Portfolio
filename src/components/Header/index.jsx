@@ -1,7 +1,7 @@
 export default function Header() {
   return (
     <div id="Header" className="row sticky-top">
-      <nav className="navbar navbar-expand-md navbar-dark bg-dark px-2 px-sm-5">
+      <nav className="navbar navbar-expand-md navbar-dark bg-black px-2 px-sm-5">
         <div className="container-fluid">
           <a
             href="#top"
