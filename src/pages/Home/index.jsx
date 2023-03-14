@@ -7,7 +7,7 @@ import Projects from '../../components/Projects';
 
 export default function Home() {
   return (
-    <div className="Home">
+    <div id="Home" className="bg-black">
       <Header />
       <AboutMe />
       <Frameworks />
