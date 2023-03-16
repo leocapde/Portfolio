@@ -42,6 +42,11 @@ export default function Header() {
                   Formations
                 </a>
               </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#Footer">
+                  Contact
+                </a>
+              </li>
             </ul>
           </div>
         </div>

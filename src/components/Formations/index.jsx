@@ -3,7 +3,7 @@ import { formationsList } from '../../data/formations';
 export default function Formations() {
   return (
     <section id="Formations" className="row bg-black pt-5 px-2 px-sm-5">
-      <h4 className="text-light m-0">Formations</h4>
+      <h4 className="text-light mb-0 mt-2">Formations</h4>
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-2 mx-0">
         {formationsList
           .slice()
